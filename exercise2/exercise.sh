@@ -11,6 +11,14 @@ do
     valid=1
     again=''
 
+    passwordLength=${#password}
+
+    if [[ $passwordLength -lt 8 ]]
+    then
+        echo "The password '$password' should be at least 8 characters long"
+        valid=0
+    fi
+
     if [[ ! $password =~ $uppercasePattern ]]
     then
         echo "The password '$password' does not contain an uppercase letter"
