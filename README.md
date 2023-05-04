@@ -1,1 +1,1 @@
-# shellscriptexercise
+There are two shell scripting exercises in this repo
