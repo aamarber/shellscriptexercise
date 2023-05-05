@@ -8,3 +8,13 @@ Write a shell script that:
     2. Ask the user if they want to try again (y/n)
         1. If the user enters y go back to step 1
         2. If the user enters n end the script
+
+To help you develop the script:
+1. To get the length of a string you can use the next syntax:
+    string='abcd'
+    stringLength=${#string}
+    echo $stringlength #it will output4
+2. For the upper, lowercase and one digit you can use the next regexes:
+    [A-Z]
+    [a-z]
+    [0-9]
