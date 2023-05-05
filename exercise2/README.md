@@ -9,6 +9,7 @@ Write a shell script that:
         1. If the user enters y go back to step 1
         2. If the user enters n end the script
 
+## Tips
 To help you develop the script:
 1. To get the length of a string you can use the next syntax:
     string='abcd'
