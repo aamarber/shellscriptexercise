@@ -1,6 +1,6 @@
 # Password Pattern Checker
 Write a shell script that:
-1. Tells the user that the password should be at least 8 characters long, contains at least one uppercase letter, one lowercase letter and one digit
+1. Tells the user that the password should be at least 8 characters long, contains at least one uppercase letter, one lowercase letter
 2. Asks the user to input the password and store it into a variable
 3. If the password matches the previous pattern show a message saying "Password is valid" and end the script
 4. While the password is not valid:
@@ -15,7 +15,6 @@ To help you develop the script:
     string='abcd'
     stringLength=${#string}
     echo $stringlength #it will output4
-2. For the upper, lowercase and one digit you can use the next regexes:
+2. For the upper, lowercase you can use the next regexes:
     [A-Z]
     [a-z]
-    [0-9]

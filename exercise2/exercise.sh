@@ -31,16 +31,10 @@ do
         valid=0
     fi
 
-    if [[ ! $password =~ $numberPattern ]]
-    then
-        echo "The password '$password' does not contain a digit"
-        valid=0
-    fi
-
     if [[ $valid == 1 ]]
     then
         echo 'Valid password!'
-        break
+        exit
     fi
 
     while [[ $again != 'y' && $again != 'n' ]]
